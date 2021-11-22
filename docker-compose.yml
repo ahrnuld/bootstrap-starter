@@ -8,8 +8,6 @@ services:
             - ./nginx.conf:/etc/nginx/nginx.conf
             - ./app:/app
     php:
-        build:
-            context: .
-            dockerfile: PHP.Dockerfile
+        image: php:fpm
         volumes:
             - ./app:/app   
