@@ -1,4 +1,4 @@
-# Docker template for PHP projects
+# Bootstrap assignment starter template
 This repository provides a starting template for the bootstrap responsive design assignment.
 
 Docker configuration contains:
