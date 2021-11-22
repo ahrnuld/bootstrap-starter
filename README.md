@@ -14,7 +14,7 @@ Docker configuration contains:
 
 In a terminal, run:
 ```bash
-docker-compose up
+docker compose up
 ```
 
 NGINX will now serve files in the app/public folder. Visit localhost in your browser to check.
@@ -22,5 +22,5 @@ NGINX will now serve files in the app/public folder. Visit localhost in your bro
 If you want to stop the containers, press Ctrl+C. 
 Or run:
 ```bash
-docker-compose down
+docker compose down
 ```
