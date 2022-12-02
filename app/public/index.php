@@ -21,7 +21,7 @@
                 foreach ($products as $product) {
                 ?>
                     <div class="col">
-                        <img src="<?= $product->image ?>" alt="<?= $product->title ?>" title="?=$product->title?">
+                        <img src="<?= $product->image ?>" alt="<?= $product->title ?>">
                         <p><?= $product->title ?></p>
                         <p><small><?= $product->category ?></small></p>
 
